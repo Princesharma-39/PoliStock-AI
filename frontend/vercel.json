@@ -1,6 +1,8 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/" }],
-  "env": {
-    "VITE_API_URL": "https://your-render-app.onrender.com/api"
-  }
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
 }
